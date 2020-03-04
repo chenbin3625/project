@@ -9,6 +9,7 @@ typedef struct LNode
 LNode,*LinkList;
 //结点定义
 
+
 void ReverseList(LinkList l,int n)
 {
         for(int i=0;i<n;i++)
@@ -20,6 +21,8 @@ void ReverseList(LinkList l,int n)
                 l->next=newnode;
         }
 }
+
+
 
 int main()
 {
@@ -37,3 +40,5 @@ int main()
                 L=L->next;
         }
 }
+
+
