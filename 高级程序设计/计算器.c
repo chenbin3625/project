@@ -56,7 +56,7 @@ void simple()
          if(operator1==5)  //判断是否返回上级菜单
          {
                 system("cls");
-                main();    //立即清空屏幕并返回主程序
+                main();    //立即清空屏幕并返回上级菜单
          }
          else
          {
@@ -157,7 +157,7 @@ void scientific()
          if(operator==11)  //判断是否返回上级菜单
          {
                 system("cls");
-                main();    //立即清空屏幕并返回主程序
+                main();    //立即清空屏幕并返回上级菜单
          }
          else
          {
