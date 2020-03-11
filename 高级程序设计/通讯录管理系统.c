@@ -225,7 +225,7 @@ void Inquire_phone()  //电话查询
 	printf("%-10.8s %6.6s %16.6s%16.6s\n",pe[i].name,pe[i].phone,pe[i].email,pe[i].qq);
 	break;
     }
-    else if (i==count-1)printf ("No one found !\n");}  //查询失败时推出
+    else if (i==count-1)printf ("No one found !\n");}  //查询失败时退出
     system("pause");  //失败信息提示暂留
     system("cls");
     menu_inquire();//回到总查询页面
@@ -251,7 +251,7 @@ void Inquire_QQ()  //QQ查询
 	printf("%-10.8s %6.6s %16.6s%16.6s\n",pe[i].name,pe[i].phone,pe[i].email,pe[i].qq);
 	break;
     }
-    else if (i==count-1)printf ("No one found !\n");}  //查询失败时推出
+    else if (i==count-1)printf ("No one found !\n");}  //查询失败时退出
     system("pause");  //失败信息提示暂留
     system("cls");
     menu_inquire();//回到总查询页面
@@ -277,7 +277,7 @@ void Inquire_Email()  //Email查询
 	printf("%-10.8s %6.6s %16.6s%16.6s\n",pe[i].name,pe[i].phone,pe[i].email,pe[i].qq);
 	break;
     }
-    else if (i==count-1)printf ("No one found !\n");}  //查询失败时推出
+    else if (i==count-1)printf ("No one found !\n");}  //查询失败时退出
     system("pause");  //失败信息提示暂留
     system("cls");
     menu_inquire();//回到总查询页面
@@ -415,4 +415,6 @@ void main()
 	}
 
 }
+
+
 
